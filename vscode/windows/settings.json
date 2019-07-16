@@ -70,6 +70,7 @@
   // JavaScript
   //----------------------------------------
   "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
   //----------------------------------------
   // Vue.js
   //----------------------------------------
@@ -79,4 +80,31 @@
   // Git
   //----------------------------------------
   "git.autofetch": true,
+  //----------------------------------------
+  // YAML
+  //----------------------------------------
+  "yaml.format.enable": true,
+  "yaml.format.singleQuote": true,
+  "yaml.format.bracketSpacing": true,
+  "yaml.validate": true,
+  "yaml.schemas": {
+    "http://json.schemastore.org/swagger-2.0": [
+      "*swagger.yaml",
+      "*swagger.yml"
+    ]
+  },
+  //----------------------------------------
+  // Golang
+  //----------------------------------------
+  "go.formatTool": "gofmt",
+  //----------------------------------------
+  // Ruby
+  //----------------------------------------
+  "ruby.lint": {
+    "rubocop": true
+  },
+  //----------------------------------------
+  // C#
+  //----------------------------------------
+  "csharp.format.enable": true,
 }
