@@ -15,32 +15,29 @@
   "editor.formatOnType": true,
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
+  // 
+  "editor.suggestSelection": "first",
   // JavaScript
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-
   //----------------------------------------
   // window
   //----------------------------------------
   "window.zoomLevel": 0.5,
-
   //----------------------------------------
   // explorer
   //----------------------------------------
   "explorer.confirmDragAndDrop": false,
-
   //----------------------------------------
   // terminal
   //----------------------------------------
   "terminal.integrated.fontSize": 18,
-
   //----------------------------------------
   // view-in-browser
   //----------------------------------------
   // プレビューのブラウザ
   "view-in-browser.customBrowser": "chrome",
-
   //----------------------------------------
   // ESlint
   //----------------------------------------
@@ -54,7 +51,6 @@
       "autoFix": true
     }
   ],
-
   //----------------------------------------
   // prettier
   //----------------------------------------
@@ -62,14 +58,25 @@
   "prettier.eslintIntegration": true,
   "prettier.semi": false,
   "prettier.singleQuote": true,
-
   //----------------------------------------
   // emmet
   //----------------------------------------
   "emmet.triggerExpansionOnTab": true,
-
   //----------------------------------------
   // Blade
   //----------------------------------------
-  "blade.format.enable": true
+  "blade.format.enable": true,
+  //----------------------------------------
+  // JavaScript
+  //----------------------------------------
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  //----------------------------------------
+  // Vue.js
+  //----------------------------------------
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
+  "vetur.format.defaultFormatter.js": "vscode-typescript",
+  //----------------------------------------
+  // Git
+  //----------------------------------------
+  "git.autofetch": true,
 }
