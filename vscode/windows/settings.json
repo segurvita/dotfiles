@@ -1,0 +1,75 @@
+{
+  //----------------------------------------
+  // editor
+  //----------------------------------------
+  // 改行コード
+  "files.eol": "\n",
+  // フォント
+  "editor.fontFamily": "Myrica MM, Ricty Diminished, Consolas, 'Courier New', monospace",
+  "editor.fontSize": 16,
+  // インデント
+  "editor.renderIndentGuides": true,
+  // 空白
+  "editor.renderWhitespace": "all",
+  // 整形
+  "editor.formatOnType": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  // JavaScript
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  //----------------------------------------
+  // window
+  //----------------------------------------
+  "window.zoomLevel": 0.5,
+
+  //----------------------------------------
+  // explorer
+  //----------------------------------------
+  "explorer.confirmDragAndDrop": false,
+
+  //----------------------------------------
+  // terminal
+  //----------------------------------------
+  "terminal.integrated.fontSize": 18,
+
+  //----------------------------------------
+  // view-in-browser
+  //----------------------------------------
+  // プレビューのブラウザ
+  "view-in-browser.customBrowser": "chrome",
+
+  //----------------------------------------
+  // ESlint
+  //----------------------------------------
+  "eslint.enable": true,
+  "eslint.autoFixOnSave": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    {
+      "language": "vue",
+      "autoFix": true
+    }
+  ],
+
+  //----------------------------------------
+  // prettier
+  //----------------------------------------
+  // prettierとESLintの統合を有効にする
+  "prettier.eslintIntegration": true,
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+
+  //----------------------------------------
+  // emmet
+  //----------------------------------------
+  "emmet.triggerExpansionOnTab": true,
+
+  //----------------------------------------
+  // Blade
+  //----------------------------------------
+  "blade.format.enable": true
+}
