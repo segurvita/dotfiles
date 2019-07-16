@@ -1,43 +1,36 @@
 {
   //----------------------------------------
+  // Blade
+  //----------------------------------------
+  "blade.format.enable": true,
+  //----------------------------------------
+  // C#
+  //----------------------------------------
+  "csharp.format.enable": true,
+  //----------------------------------------
   // editor
   //----------------------------------------
-  // 改行コード
-  "files.eol": "\n",
   // フォント
   "editor.fontFamily": "Ricty, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontSize": 16,
-  // インデント
-  "editor.renderIndentGuides": true,
-  // 空白
-  "editor.renderWhitespace": "all",
   // 整形
   "editor.formatOnType": true,
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
-  // 
+  // インデント
+  "editor.renderIndentGuides": true,
+  // 空白
+  "editor.renderWhitespace": "all",
+  // IntelliSense
   "editor.suggestSelection": "first",
   // JavaScript
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   //----------------------------------------
-  // window
+  // emmet
   //----------------------------------------
-  "window.zoomLevel": 0.5,
-  //----------------------------------------
-  // explorer
-  //----------------------------------------
-  "explorer.confirmDragAndDrop": false,
-  //----------------------------------------
-  // terminal
-  //----------------------------------------
-  "terminal.integrated.fontSize": 18,
-  //----------------------------------------
-  // view-in-browser
-  //----------------------------------------
-  // プレビューのブラウザ
-  "view-in-browser.customBrowser": "chrome",
+  "emmet.triggerExpansionOnTab": true,
   //----------------------------------------
   // ESlint
   //----------------------------------------
@@ -52,6 +45,28 @@
     }
   ],
   //----------------------------------------
+  // explorer
+  //----------------------------------------
+  "explorer.confirmDragAndDrop": false,
+  //----------------------------------------
+  // files
+  //----------------------------------------
+  // 改行コード
+  "files.eol": "\n",
+  //----------------------------------------
+  // Git
+  //----------------------------------------
+  "git.autofetch": true,
+  //----------------------------------------
+  // Golang
+  //----------------------------------------
+  "go.formatTool": "gofmt",
+  //----------------------------------------
+  // JavaScript
+  //----------------------------------------
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  //----------------------------------------
   // prettier
   //----------------------------------------
   // prettierとESLintの統合を有効にする
@@ -59,52 +74,40 @@
   "prettier.semi": false,
   "prettier.singleQuote": true,
   //----------------------------------------
-  // emmet
-  //----------------------------------------
-  "emmet.triggerExpansionOnTab": true,
-  //----------------------------------------
-  // Blade
-  //----------------------------------------
-  "blade.format.enable": true,
-  //----------------------------------------
-  // JavaScript
-  //----------------------------------------
-  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  //----------------------------------------
-  // Vue.js
-  //----------------------------------------
-  "vetur.format.defaultFormatter.html": "js-beautify-html",
-  "vetur.format.defaultFormatter.js": "vscode-typescript",
-  //----------------------------------------
-  // Git
-  //----------------------------------------
-  "git.autofetch": true,
-  //----------------------------------------
-  // YAML
-  //----------------------------------------
-  "yaml.format.enable": true,
-  "yaml.format.singleQuote": true,
-  "yaml.format.bracketSpacing": true,
-  "yaml.validate": true,
-  "yaml.schemas": {
-    "http://json.schemastore.org/swagger-2.0": [
-      "*swagger.yaml",
-      "*swagger.yml"
-    ]
-  },
-  //----------------------------------------
-  // Golang
-  //----------------------------------------
-  "go.formatTool": "gofmt",
-  //----------------------------------------
   // Ruby
   //----------------------------------------
   "ruby.lint": {
     "rubocop": true
   },
   //----------------------------------------
-  // C#
+  // terminal
   //----------------------------------------
-  "csharp.format.enable": true,
+  "terminal.integrated.fontSize": 18,
+  //----------------------------------------
+  // view-in-browser
+  //----------------------------------------
+  // プレビューのブラウザ
+  "view-in-browser.customBrowser": "chrome",
+  //----------------------------------------
+  // Vue.js
+  //----------------------------------------
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
+  "vetur.format.defaultFormatter.js": "vscode-typescript",
+  //----------------------------------------
+  // window
+  //----------------------------------------
+  "window.zoomLevel": 0.5,
+  //----------------------------------------
+  // YAML
+  //----------------------------------------
+  "yaml.format.bracketSpacing": true,
+  "yaml.format.enable": true,
+  "yaml.format.singleQuote": true,
+  "yaml.schemas": {
+    "http://json.schemastore.org/swagger-2.0": [
+      "*swagger.yaml",
+      "*swagger.yml"
+    ]
+  },
+  "yaml.validate": true,
 }
