@@ -23,10 +23,6 @@
   "editor.renderWhitespace": "all",
   // IntelliSense
   "editor.suggestSelection": "first",
-  // JavaScript
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   //----------------------------------------
   // emmet
   //----------------------------------------
