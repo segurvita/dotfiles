@@ -66,6 +66,7 @@ rem cloud client
 choco install -y awscli
 
 rem compiler
+choco install -y make
 choco install -y cmake
 choco install -y hugo
 choco install -y hugo-extended
