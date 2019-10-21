@@ -71,6 +71,9 @@ choco install -y cmake
 choco install -y hugo
 choco install -y hugo-extended
 
+rem debugger
+choco install -y fiddler
+
 rem creater
 choco install -y audacity
 choco install -y ffmpeg
