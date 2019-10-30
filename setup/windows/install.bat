@@ -13,6 +13,8 @@ choco install -y firefox
 rem viewer
 choco install -y adobereader
 choco install -y xmind
+choco install -y winmerge
+choco install -t itunes
 
 rem zip
 choco install -y 7zip.install
@@ -30,7 +32,7 @@ choco install -y tortoisegit
 choco install -y hg
 
 rem virtual machine
-choco install -y docker-desktop --pre
+choco install -y docker-desktop --version=2.1.0.3
 
 rem editor
 choco install -y typora
@@ -79,7 +81,7 @@ choco install -y audacity
 choco install -y ffmpeg
 choco install -y imagemagick.app
 choco install -y mediainfo
-choco install -y blender
+choco install -y blender --version=2.78
 
 rem game
 choco install -y steam
