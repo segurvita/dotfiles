@@ -87,6 +87,7 @@ rem game
 choco install -y steam
 
 rem font
+choco install -y source-han-code-jp
 choco install -y fonts-ricty-diminished
 choco install -y myrica
 choco install -y cica
