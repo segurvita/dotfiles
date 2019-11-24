@@ -82,6 +82,7 @@ choco install -y ffmpeg
 choco install -y imagemagick.app
 choco install -y mediainfo
 choco install -y blender --version=2.78
+choco install -y screentogif
 
 rem game
 choco install -y steam
