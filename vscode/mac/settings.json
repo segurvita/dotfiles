@@ -11,7 +11,7 @@
   // editor
   //----------------------------------------
   // フォント
-  "editor.fontFamily": "Ricty, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontFamily": "Source Han Code JP, Ricty, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontSize": 16,
   // 整形
   "editor.formatOnType": true,
