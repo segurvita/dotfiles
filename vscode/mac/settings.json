@@ -7,6 +7,12 @@
   // C#
   //----------------------------------------
   "csharp.format.enable": true,
+  "csharpfixformat.style.braces.onSameLine": false,
+  "csharpfixformat.style.newline.atEnd": true,
+  "csharpfixformat.style.spaces.beforeParenthesis": false,
+  "[csharp]": {
+    "editor.defaultFormatter": "Leopotam.csharpfixformat"
+  },
   //----------------------------------------
   // editor
   //----------------------------------------
