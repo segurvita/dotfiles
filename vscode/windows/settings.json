@@ -91,7 +91,6 @@
   //----------------------------------------
   "terminal.integrated.fontSize": 18,
   "terminal.integrated.inheritEnv": false,
-  "terminal.integrated.rendererType": "dom",
   "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
   //----------------------------------------
   // view-in-browser
