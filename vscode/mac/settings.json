@@ -91,7 +91,7 @@
   //----------------------------------------
   "terminal.integrated.fontSize": 18,
   "terminal.integrated.inheritEnv": false,
-  "terminal.integrated.shell.osx": "/bin/zsh",
+  "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
   //----------------------------------------
   // view-in-browser
   //----------------------------------------
