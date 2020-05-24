@@ -22,7 +22,7 @@ mklink /d %AppData%\Code\User %__path%
 read -p "Please input the folder path of your settings.json: " __path; echo
 
 # シンボリックリンクを作成
-sudo ln -fnsv ${__path} ~/Library/'Application Support'/Code/User
+sudo ln -sf ${__path} ~/Library/'Application Support'/Code/User
 ```
 
 
