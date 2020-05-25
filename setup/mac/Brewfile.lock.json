@@ -331,6 +331,24 @@
             "appdir": "/Applications"
           }
         }
+      },
+      "unity-hub": {
+        "version": "latest",
+        "options": {
+          "full_name": "unity-hub",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
+      },
+      "sharemouse": {
+        "version": "latest",
+        "options": {
+          "full_name": "sharemouse",
+          "args": {
+            "appdir": "/Applications"
+          }
+        }
       }
     }
   },

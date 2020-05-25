@@ -93,4 +93,7 @@ choco install -y fonts-ricty-diminished
 choco install -y myrica
 choco install -y cica
 
+rem utility
+choco install -y sharemouse
+
 pause
