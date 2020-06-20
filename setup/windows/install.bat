@@ -40,6 +40,7 @@ choco install -y typora
 choco install -y vscode
 choco install -y springtoolsuite
 choco install -y terraform
+choco install -y androidstudio
 
 rem programming language
 choco install -y nodist
@@ -49,6 +50,7 @@ choco install -y python
 choco install -y ruby
 choco install -y golang
 choco install -y arduino
+choco install -y jdk8
 
 rem terminal
 choco install -y teraterm
