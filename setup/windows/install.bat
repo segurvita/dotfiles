@@ -28,6 +28,7 @@ choco install -y google-drive-file-stream
 rem version manager
 choco install -y git
 choco install -y sourcetree
+choco install -y git-fork
 choco install -y tortoisegit
 choco install -y hg
 
