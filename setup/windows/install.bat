@@ -14,7 +14,7 @@ rem viewer
 choco install -y adobereader
 choco install -y xmind
 choco install -y winmerge
-choco install -t itunes
+choco install -y itunes
 
 rem zip
 choco install -y 7zip.install
