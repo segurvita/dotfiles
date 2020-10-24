@@ -4,7 +4,6 @@ rem runtime
 choco install -y flashplayerplugin
 choco install -y flashplayeractivex
 choco install -y jre8
-choco install -y corretto8jdk
 
 rem web browser
 choco install -y googlechrome
@@ -38,34 +37,27 @@ choco install -y docker-desktop --version=2.1.0.3
 rem editor
 choco install -y typora
 choco install -y vscode
-choco install -y springtoolsuite
 choco install -y terraform
 choco install -y androidstudio
 
 rem programming language
 choco install -y nodist
 choco install -y php
-choco install -y python2
 choco install -y python
 choco install -y ruby
 choco install -y golang
 choco install -y arduino
-choco install -y jdk8
 
 rem terminal
 choco install -y teraterm
 choco install -y winscp
-choco install -y putty
 
 rem rest client
 choco install -y curl
 choco install -y postman
-choco install -y jmeter
 
 rem database client
 choco install -y mysql.workbench
-choco install -y robo3t
-choco install -y pgadmin3
 
 rem cloud client
 choco install -y awscli
@@ -84,7 +76,7 @@ choco install -y audacity
 choco install -y ffmpeg
 choco install -y imagemagick.app
 choco install -y mediainfo
-choco install -y blender --version=2.78
+choco install -y blender
 choco install -y screentogif
 
 rem game
