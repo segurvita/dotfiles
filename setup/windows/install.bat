@@ -1,63 +1,41 @@
-choco install -y chocolateygui
-
 rem runtime
-choco install -y flashplayerplugin
-choco install -y flashplayeractivex
 choco install -y jre8
 
 rem web browser
 choco install -y googlechrome
 choco install -y firefox
 
-rem viewer
-choco install -y adobereader
-choco install -y xmind
-choco install -y winmerge
-choco install -y itunes
-
 rem zip
 choco install -y 7zip.install
+
+rem version manager
+choco install -y git
+choco install -y git-fork
 
 rem chat
 choco install -y slack
 
-rem storage
-choco install -y google-drive-file-stream
-
-rem version manager
-choco install -y git
-choco install -y sourcetree
-choco install -y git-fork
-choco install -y tortoisegit
-choco install -y hg
-
-rem virtual machine
-choco install -y docker-desktop --version=2.1.0.3
-
 rem editor
 choco install -y typora
 choco install -y vscode
-choco install -y terraform
-choco install -y androidstudio
-
-rem programming language
-choco install -y nodist
-choco install -y php
-choco install -y python
-choco install -y ruby
-choco install -y golang
-choco install -y arduino
+choco install -y unity-hub
 
 rem terminal
-choco install -y teraterm
 choco install -y winscp
 
 rem rest client
 choco install -y curl
 choco install -y postman
 
-rem database client
-choco install -y mysql.workbench
+rem viewer
+choco install -y adobereader
+choco install -y winmerge
+choco install -y itunes
+
+rem programming language
+choco install -y nodist
+choco install -y python
+choco install -y arduino
 
 rem cloud client
 choco install -y awscli
@@ -79,8 +57,8 @@ choco install -y mediainfo
 choco install -y blender
 choco install -y screentogif
 
-rem game
-choco install -y steam
+rem virtual machine
+choco install -y docker-desktop
 
 rem font
 choco install -y source-han-code-jp
@@ -91,4 +69,10 @@ choco install -y cica
 rem utility
 choco install -y sharemouse
 
+rem storage
+choco install -y google-drive-file-stream
+
+rem virtual
+choco install -y steam
+choco install -y obs-studio
 pause
