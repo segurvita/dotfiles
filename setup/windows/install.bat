@@ -19,6 +19,7 @@ rem editor
 choco install -y typora
 choco install -y vscode
 choco install -y unity-hub
+choco install -y jetbrains-rider
 
 rem terminal
 choco install -y winscp
@@ -73,6 +74,5 @@ rem storage
 choco install -y google-drive-file-stream
 
 rem virtual
-choco install -y steam
 choco install -y obs-studio
 pause
