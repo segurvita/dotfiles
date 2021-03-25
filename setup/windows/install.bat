@@ -40,6 +40,7 @@ choco install -y arduino
 
 rem cloud client
 choco install -y awscli
+choco install -y cyberduck
 
 rem compiler
 choco install -y make
